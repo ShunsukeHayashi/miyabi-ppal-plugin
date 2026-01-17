@@ -1,0 +1,32 @@
+{
+  "name": "miyabi-ppal-plugin",
+  "version": "1.0.0",
+  "description": "Miyabi PPAL Plugin - Course Society for Claude Code",
+  "author": "Shunsuke Hayashi",
+  "homepage": "https://github.com/ShunsukeHayashi/miyabi-ppal-plugin",
+  "repository": "https://github.com/ShunsukeHayashi/miyabi-ppal-plugin",
+  "skills": [
+    "shikirun",
+    "manabun",
+    "tsukurun",
+    "hiromerun",
+    "sasaerun",
+    "kazoerun"
+  ],
+  "categories": {
+    "coordination": ["shikirun"],
+    "curriculum": ["manabun"],
+    "content": ["tsukurun"],
+    "marketing": ["hiromerun"],
+    "support": ["sasaerun"],
+    "analytics": ["kazoerun"]
+  },
+  "triggers": {
+    "shikirun": ["/shikirun", "しきるん", "統括", "ローンチ", "launch", "coordination", "ppal"],
+    "manabun": ["/manabun", "まなぶん", "カリキュラム", "curriculum", "teachable", "course"],
+    "tsukurun": ["/tsukurun", "つくるん", "コンテンツ", "content", "教材"],
+    "hiromerun": ["/hiromerun", "ひろめるん", "マーケ", "marketing", "lstep", "集客"],
+    "sasaerun": ["/sasaerun", "ささえるん", "サポート", "support", "faq"],
+    "kazoerun": ["/kazoerun", "かぞえるん", "分析", "analytics", "kpi", "データ"]
+  }
+}
