@@ -1,0 +1,65 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "miyabi-ppal-plugin",
+  "description": "Course Society for Claude Code - オンラインコース運営のための6つの専門エージェント",
+  "owner": {
+    "name": "Shunsuke Hayashi",
+    "email": "supernovasyun@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "shikirun",
+      "description": "しきるん - 統括・調整。ローンチ実行の総指揮、タスク分解・分配を担当します。",
+      "author": {
+        "name": "Shunsuke Hayashi"
+      },
+      "source": "./skills/shikirun",
+      "category": "coordination"
+    },
+    {
+      "name": "manabun",
+      "description": "まなぶん - カリキュラム・Teachable。カリキュラム設計、Teachable商品設定を担当します。",
+      "author": {
+        "name": "Shunsuke Hayashi"
+      },
+      "source": "./skills/manabun",
+      "category": "curriculum"
+    },
+    {
+      "name": "tsukurun",
+      "description": "つくるん - コンテンツ制作。セールスレター、LP、動画スクリプト、SNS投稿を作成します。",
+      "author": {
+        "name": "Shunsuke Hayashi"
+      },
+      "source": "./skills/tsukurun",
+      "category": "content"
+    },
+    {
+      "name": "hiromerun",
+      "description": "ひろめるん - マーケティング・L-Step。L-Step設計、タグ設計、シナリオ作成を担当します。",
+      "author": {
+        "name": "Shunsuke Hayashi"
+      },
+      "source": "./skills/hiromerun",
+      "category": "marketing"
+    },
+    {
+      "name": "sasaerun",
+      "description": "ささえるん - サポート。FAQ作成、サポート対応、コミュニティ管理を担当します。",
+      "author": {
+        "name": "Shunsuke Hayashi"
+      },
+      "source": "./skills/sasaerun",
+      "category": "support"
+    },
+    {
+      "name": "kazoerun",
+      "description": "かぞえるん - 分析・KPI。KPI設定、売上分析、レポート作成を担当します。",
+      "author": {
+        "name": "Shunsuke Hayashi"
+      },
+      "source": "./skills/kazoerun",
+      "category": "analytics"
+    }
+  ]
+}
