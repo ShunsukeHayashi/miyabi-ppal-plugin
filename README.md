@@ -19,15 +19,42 @@ Miyabi PPAL Plugin - Course Society for Claude Code
 
 ## インストール
 
-### Claude Code での使用
+### 方法1: クローンして使用（推奨）
 
-1. このリポジトリをクローン
 ```bash
+# 1. プラグインディレクトリにクローン
+cd ~/.claude
 git clone https://github.com/ShunsukeHayashi/miyabi-ppal-plugin.git
-cd miyabi-ppal-plugin
 ```
 
-2. Claude Code の設定でプラグインパスを指定
+### 方法2: シンボリックリンク
+
+```bash
+# 既存のリポジトリがある場合
+ln -s /Users/shunsukehayashi/dev/miyabi-ppal-plugin ~/.claude/miyabi-ppal-plugin
+```
+
+### Claude Code で有効化
+
+Claude Code の設定ファイル `~/.claude/config.json` に以下を追加:
+
+```json
+{
+  "plugins": [
+    "~/.claude/miyabi-ppal-plugin"
+  ]
+}
+```
+
+または、プロジェクト単位で有効化する場合は、プロジェクトの `.claude/config.json` に:
+
+```json
+{
+  "plugins": [
+    "../miyabi-ppal-plugin"
+  ]
+}
+```
 
 ## 使い方
 
